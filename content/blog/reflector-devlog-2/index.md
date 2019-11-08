@@ -1,7 +1,7 @@
 ---
 title: "Reflector Devlog 2"
 date: "2019-10-18"
-description: "A roguelike base builder"
+description: "Terrain and better laser rendering"
 ---
 
 <a href="https://mscottmoore.itch.io/reflector" target="_blank">itch.io</a> | <a href="https://github.com/mscottmoore/reflector" target="_blank">GitHub</a>
