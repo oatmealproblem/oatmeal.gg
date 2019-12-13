@@ -4,8 +4,6 @@ date: "2019-12-06"
 description: "More Refactoring"
 ---
 
-<a href="https://mscottmoore.itch.io/reflector" target="_blank">itch.io</a> | <a href="https://github.com/mscottmoore/reflector" target="_blank">GitHub</a> | <a href="htps://reflector-unstable.netlify.com" target="_blank">Development Builds</a>
-
 This week I finished up the post-release refactoring I wanted to do. There's always more that could be done, but I'm going to call it there for now.
 
 I've decided that before I start working on the mechanics for alpha 2, I'm going to make some changes to the blog and the itch.io page to better showcase the game. I imagine that will last me the week, but hopefully not beyond.

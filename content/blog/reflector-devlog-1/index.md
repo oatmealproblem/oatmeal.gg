@@ -4,8 +4,6 @@ date: "2019-10-11"
 description: "Building, migration, and projectors"
 ---
 
-<a href="https://mscottmoore.itch.io/reflector" target="_blank">itch.io</a> | <a href="https://github.com/mscottmoore/reflector" target="_blank">GitHub</a>
-
 Progress has been steady this week. For the first time since I purged most of the 7DRL content, things are starting to feel like a game again. Here's the changelog for the week:
 
 - Implemented basic enemy that targets nearest destructible object

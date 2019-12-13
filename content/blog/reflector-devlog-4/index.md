@@ -4,8 +4,6 @@ date: "2019-11-01"
 description: "More UX and starting balancing"
 ---
 
-<a href="https://mscottmoore.itch.io/reflector" target="_blank">itch.io</a> | <a href="https://github.com/mscottmoore/reflector" target="_blank">GitHub</a>
-
 This was a bit of a light week. I finished up all the UX changes I want for the initial release and got started with some balancing. It's all playtesting from here on out until release.
 
 ![screenshot](./screenshot.png)

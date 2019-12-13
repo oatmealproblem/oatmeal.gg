@@ -4,8 +4,6 @@ date: "2019-10-18"
 description: "Terrain and better laser rendering"
 ---
 
-<a href="https://mscottmoore.itch.io/reflector" target="_blank">itch.io</a> | <a href="https://github.com/mscottmoore/reflector" target="_blank">GitHub</a>
-
 This week I finished up all the mechanics and game systems I want for the initial version. I'll probably spend most of next week on some UX improvements before transitioning into balance changes.
 
 Here's what's new:

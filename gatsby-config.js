@@ -1,12 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Michael Moore's Blog`,
+    title: `Reflector: Laser Defense Dev Blog`,
     author: `Michael Moore`,
-    description: `Ramblings of code, games, and linguistics.`,
+    description: `And other ramblings by Michael Moore`,
     siteUrl: `https://mscottmoore.dev/`,
-    social: {
-      twitter: `mscottmooredev`,
-    },
   },
   plugins: [
     {
@@ -68,11 +65,6 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
+    `gatsby-plugin-postcss`,
   ],
 }

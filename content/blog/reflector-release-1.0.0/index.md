@@ -4,11 +4,9 @@ date: "2019-11-22 12:00:01"
 description: "They Come at Night"
 ---
 
-<a href="https://mscottmoore.itch.io/reflector" target="_blank">itch.io</a> | <a href="https://github.com/mscottmoore/reflector" target="_blank">GitHub</a> | <a href="htps://reflector-unstable.netlify.com" target="_blank">Development Builds</a>
-
 # Alpha 1: They Come at Night
 
-You can now play the first alpha release over on <a href="https://mscottmoore.itch.io/reflector" target="_blank">itch.io</a>!
+You can now play the first alpha release over on <a href="https://mscottmoore.itch.io/reflector" target="_blank" rel="noopener noreferrer">itch.io</a>!
 
 Here's what it all includes:
 

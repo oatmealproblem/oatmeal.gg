@@ -4,8 +4,6 @@ date: "2019-11-15"
 description: "Small UX Improvements"
 ---
 
-<a href="https://mscottmoore.itch.io/reflector" target="_blank">itch.io</a> | <a href="https://github.com/mscottmoore/reflector" target="_blank">GitHub</a> | <a href="htps://reflector-unstable.netlify.com" target="_blank">Development Builds</a>
-
 This was a pretty light week, with just a few small UX improvements.
 
 Here's what's new:
