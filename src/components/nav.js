@@ -12,7 +12,7 @@ export default function Nav() {
           <Link to="/about">About Me</Link>
         </li>
         <li className="pr-3">
-          <Link to="/rss.xml">RSS</Link>
+          <a href="/rss.xml">RSS</a>
         </li>
         <li className="pr-3">
           <a
