@@ -74,7 +74,7 @@ export default function About({ location }) {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="www.linkedin.com/in/mscottmooredev"
+              href="https://www.linkedin.com/in/mscottmooredev"
             >
               LinkedIn
             </a>
