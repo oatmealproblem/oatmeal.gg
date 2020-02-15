@@ -44,6 +44,10 @@ a {
   @apply my-3;
 }
 
+.blog-post img {
+  @apply max-w-full;
+}
+
 @tailwind components;
 
 @tailwind utilities;
