@@ -31,6 +31,7 @@ a {
   @apply text-blue-500;
 }
 
+/* purgecss start ignore */
 .blog-post p {
   @apply my-3;
 }
@@ -47,6 +48,7 @@ a {
 .blog-post img {
   @apply max-w-full;
 }
+/* purgecss end ignore */
 
 @tailwind components;
 
