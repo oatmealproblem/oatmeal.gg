@@ -41,8 +41,13 @@ a {
   @apply ml-5;
 }
 
+.blog-post ol {
+  @apply list-decimal;
+  @apply ml-5;
+}
+
 .blog-post li {
-  @apply my-3;
+  @apply my-2;
 }
 
 .blog-post img {
