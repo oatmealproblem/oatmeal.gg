@@ -1,5 +1,5 @@
 ---
-title: "Reflector Monthly - May 2020"
+title: "Reflector Monthly Update - May 2020"
 date: "2020-06-01"
 description: "The Great UI Rewrite"
 ---

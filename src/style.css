@@ -53,6 +53,11 @@ a {
 .blog-post img {
   @apply max-w-full;
 }
+
+.blog-post li > .gatsby-resp-image-wrapper {
+  margin: 0 !important;
+}
+
 /* purgecss end ignore */
 
 @tailwind components;
