@@ -51,6 +51,7 @@ a {
 }
 
 .blog-post img {
+  @apply block;
   @apply max-w-full;
 }
 
