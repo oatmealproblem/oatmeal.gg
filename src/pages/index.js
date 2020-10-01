@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import "../style.css"
+import gameplayGif from "../../content/assets/alpha2-final.gif"
 
 class BlogIndex extends React.Component {
   render() {
@@ -26,26 +27,35 @@ class BlogIndex extends React.Component {
             <h3>Introduction</h3>
           </header>
           <section>
-            <Image
-              style={{ display: "block" }}
-              className="mx-auto lg:float-right lg:ml-2 my-2 lg:my-0"
-              fixed={data.screenshot.childImageSharp.fixed}
+            <img
+              // style={{ width: 384, height: 384 }}
+              className="block mx-auto lg:float-right lg:ml-2 my-2 lg:my-0 w-full lg:max-w-sm"
+              src={gameplayGif}
             />
             <p className="my-2">
-              Reflector: Laser Defense is a hybrid roguelike base-builder. You
-              need to grow a colony on a hostile planet, with only yourself to
-              defend it. It is actively in development and currently features:
+              Reflector: Laser Defense is a hybrid roguelike base-builder about establishing a colony on an alien planet. Survive 10 days to win! It features:
             </p>
             <ul className="list-disc ml-5">
               <li className="my-2">
-                No army, no allies. Just you and your laser.
-              </li>
-              <li className="my-2">Turn-based combat and base management.</li>
-              <li className="my-2">
-                Randomly generated maps with mountains, water, and ore.
+                <strong className="font-bold">Lasers and Mirrors</strong> - You have only one defense: your laser. Manipulate the beams to make the most of each shot.
               </li>
               <li className="my-2">
-                Relentless waves of enemies that attack at night.
+                <strong className="font-bold">Deterministic Combat</strong> - Everything dies in one hit, including you. Plan your turn without fear of the RNG.
+              </li>
+              <li className="my-2">
+                <strong className="font-bold">Forgiveness in Moderation</strong> - Make a deadly mistake? Undo a single turn.
+              </li>
+              <li className="my-2">
+                <strong className="font-bold">Wave Defense</strong> - Defend at night, rebuild and prepare during the day.
+              </li>
+              <li className="my-2">
+                <strong className="font-bold">Four Resources to Manage</strong> - Grow food for your colonists, produce metal and machinery for buildings, and generate power to keep things running.
+              </li>
+              <li className="my-2">
+                <strong className="font-bold">Traditional Roguelike Gameplay</strong> - Turn-based, grid-based, permadeath.
+              </li>
+              <li className="my-2">
+                <strong className="font-bold">Keyboard and Mouse Controls</strong> - Fully playable with mouse and mostly playable with keyboard. (Full customizable keyboard controls coming soon!)
               </li>
             </ul>
           </section>
@@ -85,13 +95,6 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         description
-      }
-    }
-    screenshot: file(absolutePath: { regex: "/reflector.png/" }) {
-      childImageSharp {
-        fixed(width: 384, height: 384) {
-          ...GatsbyImageSharpFixed
-        }
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
