@@ -28,7 +28,6 @@ class BlogIndex extends React.Component {
           </header>
           <section>
             <img
-              // style={{ width: 384, height: 384 }}
               className="block mx-auto lg:float-right lg:ml-2 my-2 lg:my-0 w-full lg:max-w-sm"
               src={gameplayGif}
             />
