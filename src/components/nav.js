@@ -18,7 +18,7 @@ export default function Nav() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://mscottmoore.itch.io/reflector"
+            href="https://michaelmakes.itch.io/reflector"
           >
             Itch.io
           </a>
@@ -27,7 +27,7 @@ export default function Nav() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://github.com/mscottmoore/reflector"
+            href="https://github.com/MichaelMakesGames/reflector"
           >
             GitHub
           </a>
@@ -36,7 +36,7 @@ export default function Nav() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://twitter.com/mscottmooredev"
+            href="https://twitter.com/mmakesgames"
           >
             Twitter
           </a>

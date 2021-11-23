@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Reflector: Laser Defense Dev Blog`,
+    title: `Michael Makes Games`,
     author: `Michael Moore`,
-    description: `And other ramblings by Michael Moore`,
-    siteUrl: `https://mscottmoore.dev/`,
+    description: `and occasionally other things`,
+    siteUrl: `https://michaelmakes.games/`,
   },
   plugins: [
     {

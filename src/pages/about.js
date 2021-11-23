@@ -38,7 +38,7 @@ export default function About({ location }) {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/mscottmoore"
+              href="https://github.com/MichaelMakesGames"
             >
               GitHub
             </a>
@@ -47,7 +47,7 @@ export default function About({ location }) {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://mscottmoore.itch.io"
+              href="https://michaelmakes.itch.io"
             >
               itch.io
             </a>
@@ -56,7 +56,7 @@ export default function About({ location }) {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://twitter.com/mscottmooredev"
+              href="https://twitter.com/mmakesgames"
             >
               Twitter
             </a>
@@ -65,7 +65,7 @@ export default function About({ location }) {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://reddit.com/u/mscottmooredev"
+              href="https://reddit.com/u/michaelmakesgames"
             >
               Reddit
             </a>
