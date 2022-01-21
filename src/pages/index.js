@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import "../style.css"
-import gameplayGif from "../../content/assets/alpha2-final.gif"
+import gameplayGif from "../../content/assets/alpha3.gif"
 
 class BlogIndex extends React.Component {
   render() {
@@ -32,29 +32,26 @@ class BlogIndex extends React.Component {
               src={gameplayGif}
             />
             <p className="my-2">
-              Reflector: Laser Defense is a hybrid roguelike base-builder about establishing a colony on an alien planet. Survive 10 days to win! It features:
+              Reflector: Laser Defense is a hybrid roguelike base-builder about establishing a colony on an alien planet. <a href="https://michaelmakes.itch.io/reflector" target="_blank" rel="noopener noreferrer">Play now on itch.io!</a>
             </p>
             <ul className="list-disc ml-5">
               <li className="my-2">
-                <strong className="font-bold">Lasers and Mirrors</strong> - You have only one defense: your laser. Manipulate the beams to make the most of each shot.
+                <strong className="font-bold">Laser-slinging Combat</strong>: Reflect, split, and absorb your laser beam to make the most of each shot
               </li>
               <li className="my-2">
-                <strong className="font-bold">Deterministic Combat</strong> - Everything dies in one hit, including you. Plan your turn without fear of the RNG.
+                <strong className="font-bold">Colony Management</strong>: Provide housing and jobs for your colonists, who then produce resources for you
               </li>
               <li className="my-2">
-                <strong className="font-bold">Forgiveness in Moderation</strong> - Make a deadly mistake? Undo a single turn.
+                <strong className="font-bold">Wave Survival</strong>: increasingly large and dangerous hordes of aliens attach each night!
               </li>
               <li className="my-2">
-                <strong className="font-bold">Wave Defense</strong> - Defend at night, rebuild and prepare during the day.
+                <strong className="font-bold">Short Sessions</strong>: a full successful game takes about an hour, so you don't need to worry about losing hours upon hours of progress
               </li>
               <li className="my-2">
-                <strong className="font-bold">Four Resources to Manage</strong> - Grow food for your colonists, produce metal and machinery for buildings, and generate power to keep things running.
+                <strong className="font-bold">Undo Your Mistakes</strong>: you can fully undo up to 20 turns -- experiment without fear!
               </li>
               <li className="my-2">
-                <strong className="font-bold">Traditional Roguelike Gameplay</strong> - Turn-based, grid-based, permadeath.
-              </li>
-              <li className="my-2">
-                <strong className="font-bold">Keyboard and Mouse Controls</strong> - Fully playable with mouse and mostly playable with keyboard. (Full customizable keyboard controls coming soon!)
+                <strong className="font-bold">Traditional Roguelike Gameplay</strong> : play as a individual character in a randomly generated turned-based grid-based world
               </li>
             </ul>
           </section>
