@@ -1,6 +1,6 @@
 ---
 title: "Reflector: Laser Defense Alpha 3 Release"
-date: "2022-01-02"
+date: "2022-01-20"
 description: "More of Everything!"
 ---
 
