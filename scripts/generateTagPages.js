@@ -5,18 +5,18 @@ const template = `---
 title: "#$TAG$ Posts"
 layout: layouts/base
 pagination:
-  data: collections.${tag}
-  size: 10
-  alias: posts
-  reverse: true
+	data: collections.$TAG$
+	size: 10
+	alias: posts
+	reverse: true
 ---
 
 <hgroup>
-  <h1>{{ title }}</h1>
-  <p>
-    {{ posts.at(-1).data.date | shortDate }} to
-    {{ posts[0].data.date | shortDate }}
-  </p>
+	<h1>{{ title }}</h1>
+	<p>
+		{{ posts.at(-1).data.date | shortDate }} to
+		{{ posts[0].data.date | shortDate }}
+	</p>
 </hgroup>
 
 {% include "posts-list.njk" %}
