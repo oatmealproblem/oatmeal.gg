@@ -22,4 +22,4 @@ This release contains a collection of bug fixes and UI tweaks:
 - FIX: Colonists not reassigning residence during day
 - FIX: Game crashes in private browsing mode
 - FIX: blueprint conditions checked previous position instead of current
-- FIX: sliders for musc/sfx volume are empty white boxes
+- FIX: sliders for music/sfx volume are empty white boxes
