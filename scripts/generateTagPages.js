@@ -5,10 +5,10 @@ const template = `---
 title: "#$TAG$ Posts"
 layout: layouts/base
 pagination:
-	data: collections.$TAG$
-	size: 10
-	alias: posts
-	reverse: true
+  data: collections.$TAG$
+  size: 10
+  alias: posts
+  reverse: true
 ---
 
 <hgroup>
