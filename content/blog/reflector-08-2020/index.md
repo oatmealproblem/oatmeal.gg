@@ -2,6 +2,8 @@
 title: "Reflector Monthly Update - August 2020"
 date: "2020-08-31"
 description: "Polish and the Road to Alpha 2"
+tags:
+  - reflector
 ---
 
 This was my most productive month in a while! Alpha 2 really feels like it's shaping up.

@@ -2,6 +2,8 @@
 title: "Reflector Devlog 16"
 date: "2020-02-07"
 description: "Job Priority UI"
+tags:
+  - reflector
 ---
 
 My main task this week was the interface for setting job priorities. Since I'm going to be overhauling the entire UI, I decided to start introducing some of the technologies I'm planning on using for that. For now, things are a messy mix of the new and the old. Here's the current job priority UI:

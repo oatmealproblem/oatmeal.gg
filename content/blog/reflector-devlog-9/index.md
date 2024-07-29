@@ -2,6 +2,8 @@
 title: "Reflector Devlog 9"
 date: "2019-12-06"
 description: "More Refactoring"
+tags:
+  - reflector
 ---
 
 This week I finished up the post-release refactoring I wanted to do. There's always more that could be done, but I'm going to call it there for now.

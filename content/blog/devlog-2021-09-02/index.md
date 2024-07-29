@@ -2,6 +2,8 @@
 title: Devlog September 2, 2021
 date: "2021-09-02"
 description: Map Variety
+tags:
+  - reflector
 ---
 
 This month mostly got derailed by a home search (spoiler alert: next month will be derailed by moving), but I still got a decent amount done:
@@ -10,7 +12,6 @@ This month mostly got derailed by a home search (spoiler alert: next month will 
 - **Longer-lasting Reflectors**: New players are often confused by reflector/projector range. To help make that clearer, instead of immediately disappearing, reflectors that are out of range will stay for one turn and flash.
 - **Stronger Walls**: Slight buff to walls, which can now take 3 hits instead of 2.
 - **Big Updates Under the Covers**: Updated basically all of the build tools and 3rd party libraries, for a smoother development workflow. The optimized builds are broken currently, so I'll a little more to do here before release.
-
 
 Here's a screenshot of the maps:
 ![maps](./maps.png)

@@ -1,7 +1,10 @@
 ---
 title: "Reflector: Laser Defense Alpha 1 Release"
-date: "2019-11-22 12:00:01"
+date: "2019-11-22"
 description: "They Come at Night"
+tags:
+  - reflector
+  - release
 ---
 
 # Alpha 1: They Come at Night

@@ -2,6 +2,9 @@
 title: "Reflector: Laser Defense Alpha 3 Release"
 date: "2022-01-20"
 description: "More of Everything!"
+tags:
+  - reflector
+  - release
 ---
 
 A year in the making, Alpha 3 is here! <a href="https://mscottmoore.itch.io/reflector" target="_blank" rel="noopener noreferrer">Play now on itch.io!</a>

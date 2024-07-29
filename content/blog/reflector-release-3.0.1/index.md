@@ -2,6 +2,9 @@
 title: "Reflector: Laser Defense Alpha 3.0.1 Release"
 date: "2022-01-28"
 description: "Bug Fixes and UI Tweaks"
+tags:
+  - reflector
+  - release
 ---
 
 This release contains a collection of bug fixes and UI tweaks:

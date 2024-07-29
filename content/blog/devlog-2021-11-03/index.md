@@ -2,6 +2,8 @@
 title: Devlog November 3, 2021
 date: "2021-11-03"
 description: Alpha 3 Content Complete!
+tags:
+  - reflector
 ---
 
 Lots of progress the past 2 months! All the new content for Alpha 3 is done, and now I'm working on the long tail of balance and polish. Here's a quick summary of whats new:

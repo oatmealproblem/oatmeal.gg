@@ -2,6 +2,9 @@
 title: "Reflector Devlog 10"
 date: "2019-12-13"
 description: "Blog redesign"
+tags:
+  - meta
+  - reflector
 ---
 
 This week was devoted to work beyond the game itself. Now with that out of the way, I'm excited to start working on new mechanics and content again, for the first time since mid October!

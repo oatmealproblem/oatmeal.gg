@@ -2,6 +2,8 @@
 title: Devlog August 3, 2021
 date: "2021-08-03"
 description: Roads, Farms, and Meltdowns
+tags:
+  - reflector
 ---
 
 This month I worked on new content for the player! There's more of that to come, but here's what's coming to Alpha 3 so far:

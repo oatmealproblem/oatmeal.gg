@@ -2,6 +2,8 @@
 title: "Reflector Monthly Update - October 2020"
 date: "2020-11-07"
 description: "Working Towards 2.1"
+tags:
+  - reflector
 ---
 
 Short update this time around. As planned, I've slowed down the pace of development a bit after the release of Alpha 2. I'm working on incorporating feedback, refactoring some messy code, improving performance, and adding full keyboard support.

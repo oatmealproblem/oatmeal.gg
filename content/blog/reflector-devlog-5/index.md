@@ -2,6 +2,8 @@
 title: "Reflector Devlog 5"
 date: "2019-11-08"
 description: "Balancing and playtesting continues"
+tags:
+  - reflector
 ---
 
 Balancing and playtesting continues. There is now a night and day cycle. Currently that only means that enemies spawn at night. In the future other systems will integrate with night and day, but it made sense to add it now while balancing the timing of enemy waves. As I'm playing the game more, I've found a couple more UX enhancements I'd like to make, so this next week I'll work on those in addition to more balancing.

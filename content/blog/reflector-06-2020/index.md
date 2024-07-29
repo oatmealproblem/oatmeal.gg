@@ -2,6 +2,8 @@
 title: "Reflector Monthly Update - June 2020"
 date: "2020-07-03"
 description: "More UI and More UI"
+tags:
+  - reflector
 ---
 
 June was devoted to the four main remaining parts of the new UI:
@@ -15,5 +17,4 @@ June was devoted to the four main remaining parts of the new UI:
 - And the status UI
   ![PNG](./reflector-06-2020-status.png)
 
-
-For July, I'll start alternating between playtesting and the many smaller UI enhancements in my to-do list, as well as a few bug fixes. 
+For July, I'll start alternating between playtesting and the many smaller UI enhancements in my to-do list, as well as a few bug fixes.

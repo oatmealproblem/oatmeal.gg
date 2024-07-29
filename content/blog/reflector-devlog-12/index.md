@@ -2,6 +2,8 @@
 title: "Reflector Devlog 12"
 date: "2020-01-10"
 description: "Get your miners back in the mine"
+tags:
+  - reflector
 ---
 
 The holidays were full of cooking, family, and driving across the country. This last week, I got back to working on Reflector. Colonists will now pitch tents if there aren't enough residences. During the day, they go work in the mines, which no longer produce metal on their own. If there's no work, they'll wander around aimlessly.

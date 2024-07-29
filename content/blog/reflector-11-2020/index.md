@@ -2,6 +2,8 @@
 title: "Reflector Monthly Update - November 2020"
 date: "2020-12-07"
 description: "Hotkeys Everywhere"
+tags:
+  - reflector
 ---
 
 For alpha 2, the game was mostly playable with only keyboard, but there were a few menus and miscellaneous controls that were mouse only. Much of this month was spent addressing those last few mouse-only UIs. I ran into some limitations with the hotkey library I was using, and after trying a couple others, decided to write my own. That was a fair bit of work, but I'm happy with the result. Now everything except changing job priorities can be done via keyboard. I need a bit of break from working on hotkeys, but I'll address job priorities before the release of 2.1.

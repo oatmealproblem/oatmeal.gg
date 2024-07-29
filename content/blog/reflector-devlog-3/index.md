@@ -2,6 +2,8 @@
 title: "Reflector Devlog 3"
 date: "2019-10-25"
 description: "Saves, inspection, and UX improvements"
+tags:
+  - reflector
 ---
 
 This week was focused on UX changes. There's a couple more UX changes I want to make, and then I'll shift focus to playtesting and balancing for an initial release. I'll likely find some bugs and papercuts along the way, but I'm hoping to have this out in a couple weeks.

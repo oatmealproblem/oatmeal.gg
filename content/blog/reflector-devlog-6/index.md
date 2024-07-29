@@ -2,6 +2,8 @@
 title: "Reflector Devlog 6"
 date: "2019-11-15"
 description: "Small UX Improvements"
+tags:
+  - reflector
 ---
 
 This was a pretty light week, with just a few small UX improvements.

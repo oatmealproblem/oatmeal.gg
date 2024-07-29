@@ -2,6 +2,8 @@
 title: "Reflector Monthly Update - July 2020"
 date: "2020-08-02"
 description: "First of Many Tweaks"
+tags:
+  - reflector
 ---
 
 In July I made many tweaks for balance and UI polish. There will be many more to come for August.

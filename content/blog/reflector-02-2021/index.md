@@ -2,6 +2,8 @@
 title: "Reflector Monthly Update - February 2021"
 date: "2021-03-03"
 description: "Graphical Improvements and Audio"
+tags:
+  - reflector
 ---
 
 Behind the scenes refactoring continues, but I also made some improvements to the graphics. Here's a gif demonstrating many of the improvements:
@@ -13,6 +15,7 @@ Behind the scenes refactoring continues, but I also made some improvements to th
 - There's a destruction animation. Currently it's an explosion, but that will likely change to something more like a dust cloud, as explodable things is a planned mechanic for Alpha 3.
 
 These last 3 are not in the gif:
+
 - Audio! I hear most games include this. Reflector now has music and some placeholder sfx.
 - The building preview in the build menu now fully renders the buildings, instead of a single-color silhouette.
 - Some buildings can now be built on top of others, without first needing to deconstruct. For example, advanced splitter on top of a splitter.

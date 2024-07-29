@@ -2,6 +2,8 @@
 title: "Reflector Devlog 17"
 date: "2020-02-15"
 description: "Job Priorities"
+tags:
+  - reflector
 ---
 
 This week I finished up the new mechanics and content for alpha 2! The biggest change was implementing job priorities with the ability to disable jobs for specific buildings. In the gif below, you can see me prioritize farming over mining, cause colonists to go from the mines to the farms. I then disable two of the farms, and those colonists go back to the mines.

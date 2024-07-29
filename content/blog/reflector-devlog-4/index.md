@@ -2,6 +2,8 @@
 title: "Reflector Devlog 4"
 date: "2019-11-01"
 description: "More UX and starting balancing"
+tags:
+  - reflector
 ---
 
 This was a bit of a light week. I finished up all the UX changes I want for the initial release and got started with some balancing. It's all playtesting from here on out until release.

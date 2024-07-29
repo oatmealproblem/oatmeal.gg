@@ -1,0 +1,48 @@
+---
+layout: layouts/base.njk
+---
+
+<article>
+	<header>
+		<hgroup>
+			<h1>{{ title }}</h1>
+			<p>{{ description }}</p>
+			<nav>
+				<ul>
+					{% for tag in tags | readerTags %}
+						<li><a href="/tags/{{ tag }}">#{{ tag }}</a></li>
+					{% endfor %}
+				</ul>
+				<ul>
+					<li>
+						<time datetime="{{ date }}">{{ date | shortDate }}</time>
+					</li>
+				</ul>
+			</nav>
+		</hgroup>
+	</header>
+
+	{{ content | safe }}
+
+	{% if collections.posts %}
+		{% set previousPost = collections.posts | getPreviousCollectionItem %}
+		{% set nextPost = collections.posts | getNextCollectionItem %}
+		{% if nextPost or previousPost %}
+			<footer>
+				<ul>
+					{% if previousPost %}
+						<li>
+							Previous:
+							<a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
+						</li>
+					{% endif %}
+					{% if nextPost %}
+						<li>
+							Next: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+						</li>
+					{% endif %}
+				</ul>
+			</footer>
+		{% endif %}
+	{% endif %}
+</article>

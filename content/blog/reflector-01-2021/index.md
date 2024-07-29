@@ -2,6 +2,8 @@
 title: "Reflector Monthly Update - January 2021"
 date: "2021-02-01"
 description: "Tutorial and Release"
+tags:
+  - reflector
 ---
 
 I spent the first part of this month planning, building, and testing the new interactive tutorial. That has been released along with all the other changes from the past 3 months, so rather than talking about it at length, I'll just let you go play it over at [itch.io](https://mscottmoore.itch.io/reflector).

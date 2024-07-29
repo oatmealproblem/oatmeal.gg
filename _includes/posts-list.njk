@@ -1,0 +1,55 @@
+<ol class="posts-list">
+	{% for post in posts %}
+		<li>
+			<article>
+				<header>
+					<hgroup>
+						<h2 style="display: block">
+							<small
+								><a style="display: block" href="{{ post.url }}"
+									>{{ post.data.title }}</a
+								></small
+							>
+						</h2>
+						<p>{{ description }}</p>
+						<nav>
+							<ul>
+								{% for tag in post.data.tags | readerTags %}
+									<li>
+										<a class="secondary" href="/tags/{{ tag }}"
+											><small>#{{ tag }}</small></a
+										>
+									</li>
+								{% endfor %}
+							</ul>
+							<ul>
+								<li>
+									<small
+										><time datetime="{{ post.data.date }}"
+											>{{ post.data.date | shortDate }}</time
+										></small
+									>
+								</li>
+							</ul>
+						</nav>
+					</hgroup>
+				</header>
+				<main>{{ post.data.description }}</main>
+			</article>
+		</li>
+	{% endfor %}
+</ol>
+<nav>
+	<ul>
+		{% if pagination.href.previous %}
+			<li>
+				<a href="{{ pagination.href.previous }}">Previous</a>
+			</li>
+		{% endif %}
+		{% if pagination.href.next %}
+			<li>
+				<a href="{{ pagination.href.next }}">Next</a>
+			</li>
+		{% endif %}
+	</ul>
+</nav>

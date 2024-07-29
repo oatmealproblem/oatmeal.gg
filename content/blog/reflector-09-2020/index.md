@@ -2,6 +2,8 @@
 title: "Reflector Monthly Update - September 2020"
 date: "2020-10-04"
 description: "Beyond Alpha 2"
+tags:
+  - reflector
 ---
 
 [Alpha 2 is out!](https://mscottmoore.itch.io/reflector) September was jam packed with playtesting and lots of usability tweaks. But you can check those out for yourself.

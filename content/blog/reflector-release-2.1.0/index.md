@@ -2,6 +2,9 @@
 title: "Reflector: Laser Defense Alpha 2.1 Release"
 date: "2021-01-22"
 description: "Tutorial, Keyboard Support, and More!"
+tags:
+  - reflector
+  - release
 ---
 
 Four months in the making, Alpha 2.1 is finally here! Go play it at <a href="https://mscottmoore.itch.io/reflector" target="_blank" rel="noopener noreferrer">itch.io</a>!

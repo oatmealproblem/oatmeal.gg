@@ -2,6 +2,8 @@
 title: Devlog July 2, 2021
 date: "2021-07-02"
 description: New Enemies and Better AI
+tags:
+  - reflector
 ---
 
 Lots of progress towards Alpha 3 this month. I implemented all of the new enemies, bringing the total from 1 to 5:

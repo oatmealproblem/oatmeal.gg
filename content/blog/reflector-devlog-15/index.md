@@ -2,6 +2,8 @@
 title: "Reflector Devlog 15"
 date: "2020-01-31"
 description: "Windmills, Solar Panel, and Misc Changes"
+tags:
+  - reflector
 ---
 
 ![Colony with wind and solar power in the northwest](./wind-and-solar.png)

@@ -2,6 +2,10 @@
 title: Devlog June 2, 2021
 date: "2021-06-02"
 description: 7DRL and Sound Effects
+tags:
+  - meta
+  - reflector
+  - wyrms-wrath
 ---
 
 ### Where I've Been

@@ -2,6 +2,8 @@
 title: "Reflector Monthly Update - May 2020"
 date: "2020-06-01"
 description: "The Great UI Rewrite"
+tags:
+  - reflector
 ---
 
 May was focused on the big UI redesign for Alpha 2. The main goals of redesign are:

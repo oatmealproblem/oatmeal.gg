@@ -2,6 +2,8 @@
 title: "Reflector Devlog 13"
 date: "2020-01-18"
 description: "Farms, food, and hunger"
+tags:
+  - reflector
 ---
 
 This week I added the first of the new resources: food! Here's how it works:

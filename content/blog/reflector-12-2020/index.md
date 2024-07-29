@@ -2,6 +2,8 @@
 title: "Reflector Monthly Update - December 2020"
 date: "2021-01-01"
 description: "Tutorial Incoming"
+tags:
+  - reflector
 ---
 
 This month, I finished everything I want for the Alpha 2.1 release, except I've decided to add one more thing: an interactive tutorial. I'm not currently collecting any metrics, but from the feedback I have, it seems like many potential players are bouncing off because of the lack of a tutorial. This has been on my to-do list though originally just in the "before I call this game complete" category. It has gradually become higher and higher priority. First, getting schedules for Alpha 4, then Alpha 3, and now finally Alpha 2.1.

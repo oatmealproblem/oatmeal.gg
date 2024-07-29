@@ -2,6 +2,8 @@
 title: "Reflector Devlog 8"
 date: "2019-11-29"
 description: "Cleaning Up"
+tags:
+  - reflector
 ---
 
 I've taken this first week after the alpha 1 release to reward myself with some code refactoring. I've cleaned up a lot of things that were bothering, and I have few more things that I should finish up this week. Then I'll be putting the colonists to work.

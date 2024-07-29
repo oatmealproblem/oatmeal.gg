@@ -2,6 +2,8 @@
 title: "Reflector Devlog 14"
 date: "2020-01-24"
 description: "Power, Refined Metal, and Infinite Lasers"
+tags:
+  - reflector
 ---
 
 This week I added the last of new resources for alpha 2: power and refined metal.

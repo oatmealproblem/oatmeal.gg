@@ -2,6 +2,8 @@
 title: Reflecting on Reflector
 date: "2019-03-16"
 description: A 7DRL Retrospective
+tags:
+  - reflector
 ---
 
 ![Screenshot](./reflector-screenshot.png)

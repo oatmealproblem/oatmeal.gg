@@ -1,0 +1,51 @@
+---
+title: MichaelMakesGames
+layout: layouts/base
+---
+
+<section>
+	<h1>Hi, I'm Michael</h1>
+	<p>
+		I'm a game and web developer. I blog about whatever I'm working on here.
+	</p>
+	<div class="gallery">
+		<div class="gallery-row">
+			<a
+				target="_blank"
+				href="https://github.com/michaelmakesgames/stellarmaps"
+			>
+				<img src="/images/stellarmaps.png" alt="StellarMaps" />
+			</a>
+			<a target="_blank" href="https://michaelmakes.itch.io/reflector">
+				<img src="/images/reflector.png" alt="Reflector: Laser Defense" />
+			</a>
+			<a target="_blank" href="https://michaelmakes.itch.io/wyrms-wrath">
+				<img src="/images/wyrms-wrath.png" alt="Wyrm's Wrath" />
+			</a>
+		</div>
+		<div class="gallery-row">
+			<a
+				target="_blank"
+				href="https://github.com/michaelmakesgames/vindication"
+			>
+				<img src="/images/vindication.jpeg" alt="Vindication" />
+			</a>
+			<a
+				target="_blank"
+				href="https://github.com/michaelmakesgames/rects-in-hex-demo"
+			>
+				<img src="/images/rects-in-hex.png" alt="Rects in Hex" />
+			</a>
+			<a target="_blank" href="https://github.com/michaelmakesgames/golemrl">
+				<img src="/images/golemrl.png" alt="GolemRL" />
+			</a>
+		</div>
+	</div>
+</section>
+
+<section>
+	<h1>Recent Posts</h1>
+
+	{% set posts = collections.posts | head(-5) | reverse %}
+	{% include "posts-list.njk" %}
+</section>

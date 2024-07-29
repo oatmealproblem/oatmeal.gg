@@ -2,6 +2,8 @@
 title: "Reflector Devlog 18"
 date: "2020-05-01"
 description: "Smoke and New Sprites"
+tags:
+  - reflector
 ---
 
 It's been a while since I posted anything. In the past couple months, Reflector has been on the back burner for me, but not completely forgotten. I'm not sure if I'll be going back to weekly updates like before, but if not I'll aim for monthly.
