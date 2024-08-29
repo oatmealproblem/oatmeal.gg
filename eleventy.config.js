@@ -17,6 +17,9 @@ export default function (eleventyConfig) {
 			animated: true,
 			limitInputPixels: false,
 		},
+		sharpWebpOptions: {
+			nearLossless: true,
+		},
 	});
 
 	eleventyConfig.addPlugin(feedPlugin, {
