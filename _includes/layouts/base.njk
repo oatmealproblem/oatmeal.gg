@@ -26,6 +26,9 @@
 		{# Renders the CSS bundle using a separate file, if you can't set CSP directive style-src: 'unsafe-inline' #}
 		{# <link rel="stylesheet" href="{% getBundleFileUrl "css" %}"> #}
 		<style>
+			:root {
+				--pico-code-background-color: hsl(from var(--pico-background-color) h s calc(l - 2)) !important;
+			}
 			picture { display: block; }
 			article > header > hgroup {
 				margin-block-end: 0;
@@ -49,6 +52,9 @@
 				hgroup {
 					width: 100%;
 				}
+			}
+			figure.frame {
+				margin-block-end: 1rem !important;
 			}
 		</style>
 	</head>

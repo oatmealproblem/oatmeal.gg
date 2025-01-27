@@ -1,6 +1,12 @@
 import eleventyPluginBundle from "@11ty/eleventy-plugin-bundle";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+import { transformerColorizedBrackets } from "@shikijs/colorized-brackets";
+import { unified } from "unified";
+import remarkParse from "remark-parse";
+import remarkRehype from "remark-rehype";
+import rehypeStringify from "rehype-stringify";
+import rehypeExpressiveCode from "rehype-expressive-code";
 
 export default function (eleventyConfig) {
 	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
@@ -43,6 +49,37 @@ export default function (eleventyConfig) {
 	});
 
 	eleventyConfig.addPlugin(eleventyPluginBundle);
+
+	const codeBackground = `var(--pico-code-background-color)`;
+	const codeBackgroundLighter = "var(--pico-background-color)";
+	const codeBorder = "var(--pico-blockquote-border-color)";
+	eleventyConfig.setLibrary("md", {
+		render: async (content, pageContext) => {
+			return await unified()
+				.use(remarkParse)
+				.use(remarkRehype)
+				.use(rehypeExpressiveCode, {
+					themes: ["dark-plus"],
+					styleOverrides: {
+						codeBackground: codeBackground,
+						borderColor: codeBorder,
+						frames: {
+							editorActiveTabBackground: codeBackground,
+							editorTabBarBackground: codeBackgroundLighter,
+							terminalBackground: codeBackground,
+							terminalTitlebarBackground: codeBackgroundLighter,
+						},
+					},
+					shiki: { transformers: [transformerColorizedBrackets()] },
+				})
+				.use(rehypeStringify)
+				.data({
+					pageContext,
+					eleventyConfig,
+				})
+				.process(content);
+		},
+	});
 
 	eleventyConfig.addFilter("head", (array, n) => {
 		if (!Array.isArray(array) || array.length === 0) {
