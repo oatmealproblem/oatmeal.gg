@@ -9,6 +9,9 @@ import rehypeStringify from "rehype-stringify";
 import rehypeExpressiveCode from "rehype-expressive-code";
 
 export default function (eleventyConfig) {
+	// cloudflare redirects https://developers.cloudflare.com/pages/configuration/redirects/
+	eleventyConfig.addPassthroughCopy({ _redirects: "_redirects" });
+
 	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
 
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
