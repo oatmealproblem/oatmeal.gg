@@ -6,7 +6,7 @@ tags:
   - reflector
 ---
 
-I spent the first part of this month planning, building, and testing the new interactive tutorial. That has been released along with all the other changes from the past 3 months, so rather than talking about it at length, I'll just let you go play it over at [itch.io](https://mscottmoore.itch.io/reflector).
+I spent the first part of this month planning, building, and testing the new interactive tutorial. That has been released along with all the other changes from the past 3 months, so rather than talking about it at length, I'll just let you go play it over at [itch.io](https://oatmealproblem.itch.io/reflector).
 
 After the release, I took a bit of a brake for relaxation and so I wouldn't be in the middle of anything if any major bugs came up. Looks like the current release is pretty stable, so I've started working on Alpha 3, which is focused on combat. To start off though, I'm cleaning up some older parts of the code.
 

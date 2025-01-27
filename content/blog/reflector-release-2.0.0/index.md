@@ -7,7 +7,7 @@ tags:
   - release
 ---
 
-Alpha 2 is finally released! Go play it at <a href="https://mscottmoore.itch.io/reflector" target="_blank" rel="noopener noreferrer">itch.io</a>!
+Alpha 2 is finally released! Go play it at <a href="https://oatmealproblem.itch.io/reflector" target="_blank" rel="noopener noreferrer">itch.io</a>!
 
 Here's what it all includes:
 

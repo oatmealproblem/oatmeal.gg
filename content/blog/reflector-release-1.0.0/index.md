@@ -9,7 +9,7 @@ tags:
 
 # Alpha 1: They Come at Night
 
-You can now play the first alpha release over on <a href="https://mscottmoore.itch.io/reflector" target="_blank" rel="noopener noreferrer">itch.io</a>!
+You can now play the first alpha release over on <a href="https://oatmealproblem.itch.io/reflector" target="_blank" rel="noopener noreferrer">itch.io</a>!
 
 Here's what it all includes:
 

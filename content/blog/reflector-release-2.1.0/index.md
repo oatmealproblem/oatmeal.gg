@@ -7,7 +7,7 @@ tags:
   - release
 ---
 
-Four months in the making, Alpha 2.1 is finally here! Go play it at <a href="https://mscottmoore.itch.io/reflector" target="_blank" rel="noopener noreferrer">itch.io</a>!
+Four months in the making, Alpha 2.1 is finally here! Go play it at <a href="https://oatmealproblem.itch.io/reflector" target="_blank" rel="noopener noreferrer">itch.io</a>!
 
 ![Tutorial GIF](./alpha-2-1.gif)
 

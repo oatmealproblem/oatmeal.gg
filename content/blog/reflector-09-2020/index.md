@@ -6,7 +6,7 @@ tags:
   - reflector
 ---
 
-[Alpha 2 is out!](https://mscottmoore.itch.io/reflector) September was jam packed with playtesting and lots of usability tweaks. But you can check those out for yourself.
+[Alpha 2 is out!](https://oatmealproblem.itch.io/reflector) September was jam packed with playtesting and lots of usability tweaks. But you can check those out for yourself.
 
 # What's next?
 

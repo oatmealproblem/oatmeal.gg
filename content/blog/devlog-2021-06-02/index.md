@@ -18,6 +18,6 @@ So, what's the status of Reflector? I have managed some progress over the past f
 
 ### Wyrm's Wrath
 
-This is the game I made for 7DRL 2021, which you can [play here on itch.io](https://mscottmoore.itch.io/wyrms-wrath). Play as primordial beast. Eat your enemies to harness the powers of Mushroom, Crystal, and Slime. Kill the King and get your revenge.
+This is the game I made for 7DRL 2021, which you can [play here on itch.io](https://oatmealproblem.itch.io/wyrms-wrath). Play as primordial beast. Eat your enemies to harness the powers of Mushroom, Crystal, and Slime. Kill the King and get your revenge.
 
 I have some pretty major changes planned for this, but it's on hold for now. After releasing Reflector Alpha 3 and following up with any needed patches, I'll return to work on the 2.0 update for this.

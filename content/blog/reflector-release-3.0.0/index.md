@@ -7,7 +7,7 @@ tags:
   - release
 ---
 
-A year in the making, Alpha 3 is here! <a href="https://mscottmoore.itch.io/reflector" target="_blank" rel="noopener noreferrer">Play now on itch.io!</a>
+A year in the making, Alpha 3 is here! <a href="https://oatmealproblem.itch.io/reflector" target="_blank" rel="noopener noreferrer">Play now on itch.io!</a>
 
 ![gif](./alpha3.gif)
 

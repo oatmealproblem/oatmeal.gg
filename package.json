@@ -1,18 +1,18 @@
 {
-	"name": "mscottmoore.dev",
+	"name": "oatmealproblem.solutions",
 	"private": true,
-	"description": "Personal blog powered by 11ty and Pico CSS",
+	"description": "Personal blog powered by Eleventy and Pico CSS",
 	"version": "0.1.0",
 	"author": "Michael Moore <mscottmoore@protonmail.com>",
 	"bugs": {
-		"url": "https://github.com/mscottmoore/mscottmoove.dev/issues"
+		"url": "https://github.com/oatmealproblem/oatmealproblem.solutions/issues"
 	},
-	"homepage": "https://github.com/mscottmoore/mscottmoove.dev#readme",
+	"homepage": "https://github.com/oatmealproblem/oatmealproblem.solutions#readme",
 	"license": "MIT",
 	"main": "n/a",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/mscottmoore/mscottmoore.dev.git"
+		"url": "git+https://github.com/oatmealproblem/oatmealproblem.solutions.git"
 	},
 	"scripts": {
 		"build:tags": "node ./scripts/generateTagPages",

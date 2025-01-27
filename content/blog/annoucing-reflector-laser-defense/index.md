@@ -6,7 +6,7 @@ tags:
   - reflector
 ---
 
-In <a href="https://mscottmoore.itch.io/reflector" target="_blank" rel="noopener noreferrer">Reflector: Laser Defense</a> you'll be in charge of developing and defending a colony on a hostile planet. You'll have no army though; just yourself and your laser gun.
+In <a href="https://oatmealproblem.itch.io/reflector" target="_blank" rel="noopener noreferrer">Reflector: Laser Defense</a> you'll be in charge of developing and defending a colony on a hostile planet. You'll have no army though; just yourself and your laser gun.
 
 Planned Features:
 

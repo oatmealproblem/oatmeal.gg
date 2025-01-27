@@ -1,1 +1,1 @@
-Personal blog, read at https://michaelmakes.games
+Personal blog, read at https://oatmealproblem.solutions

@@ -37,10 +37,10 @@ export default function (eleventyConfig) {
 		},
 		metadata: {
 			language: "en",
-			title: "MichaelMakesGames",
+			title: "Oatmeal Problem",
 			subtitle:
 				"A blog where I post about game dev, web tech, or whatever else I'm up to.",
-			base: "https://michaelmakes.games",
+			base: "https://oatmealproblem.solutions",
 			author: {
 				name: "Michael Moore",
 				email: "", // Optional
