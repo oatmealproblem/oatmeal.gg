@@ -10,7 +10,17 @@ import rehypeExpressiveCode from "rehype-expressive-code";
 
 export default function (eleventyConfig) {
 	// cloudflare redirects https://developers.cloudflare.com/pages/configuration/redirects/
-	eleventyConfig.addPassthroughCopy({ _redirects: "_redirects" });
+	eleventyConfig.addPassthroughCopy({
+		_redirects: "_redirects",
+		"giscus-theme.css": "giscus-theme.css",
+	});
+
+	eleventyConfig.setServerOptions({
+		headers: {
+			// needed for custom giscus theme
+			"Access-Control-Allow-Origin": "*",
+		},
+	});
 
 	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
 
@@ -43,7 +53,7 @@ export default function (eleventyConfig) {
 			title: "Oatmeal Problem",
 			subtitle:
 				"A blog where I post about game dev, web tech, or whatever else I'm up to.",
-			base: "https://oatmealproblem.solutions",
+			base: "https://oatmeal.gg",
 			author: {
 				name: "Michael Moore",
 				email: "", // Optional
@@ -115,6 +125,7 @@ export default function (eleventyConfig) {
 		dir: {
 			input: "content",
 			includes: "../_includes", // relative to input
+			data: "../_data",
 		},
 	};
 }

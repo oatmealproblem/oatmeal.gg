@@ -1,0 +1,297 @@
+/* Pico CSS variables, for use below */
+/* mostly straight copied from Pico, but --pico-code-background-color is overridden (to match override in blog) */
+
+main {
+	--pico-background-color: #13171f;
+	--pico-color: #c2c7d0;
+	--pico-text-selection-color: rgba(10, 177, 177, 0.1875);
+	--pico-muted-color: #7b8495;
+	--pico-muted-border-color: #202632;
+	--pico-primary: #0ab1b1;
+	--pico-primary-background: #047878;
+	--pico-primary-border: var(--pico-primary-background);
+	--pico-primary-underline: rgba(10, 177, 177, 0.5);
+	--pico-primary-hover: #0ccece;
+	--pico-primary-hover-background: #058686;
+	--pico-primary-hover-border: var(--pico-primary-hover-background);
+	--pico-primary-hover-underline: var(--pico-primary-hover);
+	--pico-primary-focus: rgba(10, 177, 177, 0.375);
+	--pico-primary-inverse: #fff;
+	--pico-secondary: #969eaf;
+	--pico-secondary-background: #525f7a;
+	--pico-secondary-border: var(--pico-secondary-background);
+	--pico-secondary-underline: rgba(150, 158, 175, 0.5);
+	--pico-secondary-hover: #b3b9c5;
+	--pico-secondary-hover-background: #5d6b89;
+	--pico-secondary-hover-border: var(--pico-secondary-hover-background);
+	--pico-secondary-hover-underline: var(--pico-secondary-hover);
+	--pico-secondary-focus: rgba(144, 158, 190, 0.25);
+	--pico-secondary-inverse: #fff;
+	--pico-contrast: #dfe3eb;
+	--pico-contrast-background: #eff1f4;
+	--pico-contrast-border: var(--pico-contrast-background);
+	--pico-contrast-underline: rgba(223, 227, 235, 0.5);
+	--pico-contrast-hover: #fff;
+	--pico-contrast-hover-background: #fff;
+	--pico-contrast-hover-border: var(--pico-contrast-hover-background);
+	--pico-contrast-hover-underline: var(--pico-contrast-hover);
+	--pico-contrast-focus: rgba(207, 213, 226, 0.25);
+	--pico-contrast-inverse: #000;
+	--pico-box-shadow: 0.0145rem 0.029rem 0.174rem rgba(7, 9, 12, 0.01698),
+		0.0335rem 0.067rem 0.402rem rgba(7, 9, 12, 0.024),
+		0.0625rem 0.125rem 0.75rem rgba(7, 9, 12, 0.03),
+		0.1125rem 0.225rem 1.35rem rgba(7, 9, 12, 0.036),
+		0.2085rem 0.417rem 2.502rem rgba(7, 9, 12, 0.04302),
+		0.5rem 1rem 6rem rgba(7, 9, 12, 0.06), 0 0 0 0.0625rem rgba(7, 9, 12, 0.015);
+	--pico-h1-color: #f0f1f3;
+	--pico-h2-color: #e0e3e7;
+	--pico-h3-color: #c2c7d0;
+	--pico-h4-color: #b3b9c5;
+	--pico-h5-color: #a4acba;
+	--pico-h6-color: #8891a4;
+	--pico-mark-background-color: #014063;
+	--pico-mark-color: #fff;
+	--pico-ins-color: #62af9a;
+	--pico-del-color: #ce7e7b;
+	--pico-blockquote-border-color: var(--pico-muted-border-color);
+	--pico-blockquote-footer-color: var(--pico-muted-color);
+	--pico-button-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+	--pico-button-hover-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+	--pico-table-border-color: var(--pico-muted-border-color);
+	--pico-table-row-stripped-background-color: rgba(111, 120, 135, 0.0375);
+	/* --pico-code-background-color: #1a1f28; */
+	--pico-code-background-color: hsl(
+		from var(--pico-background-color) h s calc(l - 2)
+	);
+	--pico-code-color: #8891a4;
+	--pico-code-kbd-background-color: var(--pico-color);
+	--pico-code-kbd-color: var(--pico-background-color);
+	--pico-form-element-background-color: #1c212c;
+	--pico-form-element-selected-background-color: #2a3140;
+	--pico-form-element-border-color: #2a3140;
+	--pico-form-element-color: #e0e3e7;
+	--pico-form-element-placeholder-color: #8891a4;
+	--pico-form-element-active-background-color: #1a1f28;
+	--pico-form-element-active-border-color: var(--pico-primary-border);
+	--pico-form-element-focus-color: var(--pico-primary-border);
+	--pico-form-element-disabled-opacity: 0.5;
+	--pico-form-element-invalid-border-color: #964a50;
+	--pico-form-element-invalid-active-border-color: #b7403b;
+	--pico-form-element-invalid-focus-color: var(
+		--pico-form-element-invalid-active-border-color
+	);
+	--pico-form-element-valid-border-color: #2a7b6f;
+	--pico-form-element-valid-active-border-color: #16896a;
+	--pico-form-element-valid-focus-color: var(
+		--pico-form-element-valid-active-border-color
+	);
+	--pico-switch-background-color: #333c4e;
+	--pico-switch-checked-background-color: var(--pico-primary-background);
+	--pico-switch-color: #fff;
+	--pico-switch-thumb-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+	--pico-range-border-color: #202632;
+	--pico-range-active-border-color: #2a3140;
+	--pico-range-thumb-border-color: var(--pico-background-color);
+	--pico-range-thumb-color: var(--pico-secondary-background);
+	--pico-range-thumb-active-color: var(--pico-primary-background);
+	--pico-accordion-border-color: var(--pico-muted-border-color);
+	--pico-accordion-active-summary-color: var(--pico-primary-hover);
+	--pico-accordion-close-summary-color: var(--pico-color);
+	--pico-accordion-open-summary-color: var(--pico-muted-color);
+	--pico-card-background-color: #181c25;
+	--pico-card-border-color: var(--pico-card-background-color);
+	--pico-card-box-shadow: var(--pico-box-shadow);
+	--pico-card-sectioning-background-color: #1a1f28;
+	--pico-dropdown-background-color: #181c25;
+	--pico-dropdown-border-color: #202632;
+	--pico-dropdown-box-shadow: var(--pico-box-shadow);
+	--pico-dropdown-color: var(--pico-color);
+	--pico-dropdown-hover-background-color: #202632;
+	--pico-loading-spinner-opacity: 0.5;
+	--pico-modal-overlay-background-color: rgba(8, 9, 10, 0.75);
+	--pico-progress-background-color: #202632;
+	--pico-progress-color: var(--pico-primary-background);
+	--pico-tooltip-background-color: var(--pico-contrast-background);
+	--pico-tooltip-color: var(--pico-contrast-inverse);
+	--pico-icon-valid: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(42, 123, 111)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
+	--pico-icon-invalid: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgb(150, 74, 80)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'%3E%3C/circle%3E%3Cline x1='12' y1='8' x2='12' y2='12'%3E%3C/line%3E%3Cline x1='12' y1='16' x2='12.01' y2='16'%3E%3C/line%3E%3C/svg%3E");
+	color-scheme: dark;
+}
+
+/*!
+ * Modified from GitHub's theme (by way of Giscus preferred_color_scheme theme), licensed under the MIT License
+ * Copyright (c) 2018 GitHub Inc.
+ * https://github.com/primer/primitives/blob/main/LICENSE
+ */
+
+main {
+	--color-prettylights-syntax-comment: #8b949e;
+	--color-prettylights-syntax-constant: #79c0ff;
+	--color-prettylights-syntax-entity: #d2a8ff;
+	--color-prettylights-syntax-storage-modifier-import: #c9d1d9;
+	--color-prettylights-syntax-entity-tag: #7ee787;
+	--color-prettylights-syntax-keyword: #ff7b72;
+	--color-prettylights-syntax-string: #a5d6ff;
+	--color-prettylights-syntax-variable: #ffa657;
+	--color-prettylights-syntax-brackethighlighter-unmatched: #f85149;
+	--color-prettylights-syntax-invalid-illegal-text: #f0f6fc;
+	--color-prettylights-syntax-invalid-illegal-bg: #8e1519;
+	--color-prettylights-syntax-carriage-return-text: #f0f6fc;
+	--color-prettylights-syntax-carriage-return-bg: #b62324;
+	--color-prettylights-syntax-string-regexp: #7ee787;
+	--color-prettylights-syntax-markup-list: #f2cc60;
+	--color-prettylights-syntax-markup-heading: #1f6feb;
+	--color-prettylights-syntax-markup-italic: #c9d1d9;
+	--color-prettylights-syntax-markup-bold: #c9d1d9;
+	--color-prettylights-syntax-markup-deleted-text: #ffdcd7;
+	--color-prettylights-syntax-markup-deleted-bg: #67060c;
+	--color-prettylights-syntax-markup-inserted-text: #aff5b4;
+	--color-prettylights-syntax-markup-inserted-bg: #033a16;
+	--color-prettylights-syntax-markup-changed-text: #ffdfb6;
+	--color-prettylights-syntax-markup-changed-bg: #5a1e02;
+	--color-prettylights-syntax-markup-ignored-text: #c9d1d9;
+	--color-prettylights-syntax-markup-ignored-bg: #1158c7;
+	--color-prettylights-syntax-meta-diff-range: #d2a8ff;
+	--color-prettylights-syntax-brackethighlighter-angle: #8b949e;
+	--color-prettylights-syntax-sublimelinter-gutter-mark: #484f58;
+	--color-prettylights-syntax-constant-other-reference-link: #a5d6ff;
+	--color-btn-text: var(--pico-secondary-inverse);
+	--color-btn-bg: var(--pico-secondary-background);
+	--color-btn-border: var(--pico-secondary-background);
+	--color-btn-shadow: var(--pico-button-box-shadow);
+	--color-btn-inset-shadow: 0 0 transparent;
+	--color-btn-hover-bg: var(--pico-secondary-hover-background);
+	--color-btn-hover-border: var(--pico-secondary-hover-border);
+	--color-btn-active-bg: var(--pico-secondary-hover-background);
+	--color-btn-active-border: var(--pico-secondary-hover-border);
+	--color-btn-selected-bg: var(--pico-secondary-focus);
+	--color-btn-primary-text: var(--pico-primary-inverse);
+	--color-btn-primary-bg: var(--pico-primary-background);
+	--color-btn-primary-border: var(--pico-primary-border);
+	--color-btn-primary-shadow: var(--pico-button-box-shadow);
+	--color-btn-primary-inset-shadow: 0 0 transparent;
+	--color-btn-primary-hover-bg: var(--pico-primary-hover-background);
+	--color-btn-primary-hover-border: var(--pico-primary-hover-border);
+	--color-btn-primary-selected-bg: var(--pico-primary-focus);
+	--color-btn-primary-selected-shadow: var(--pico-button-box-shadow);
+	--color-btn-primary-disabled-text: color-mix(
+		in srgb,
+		var(--pico-color) 50%,
+		transparent
+	);
+	--color-btn-primary-disabled-bg: color-mix(
+		in srgb,
+		var(--pico-primary-background) 60%,
+		transparent
+	);
+	--color-btn-primary-disabled-border: color-mix(
+		in srgb,
+		var(--pico-primary-border) 60%,
+		transparent
+	);
+	--color-action-list-item-default-hover-bg: var(
+		--pico-secondary-hover-background
+	);
+	--color-segmented-control-bg: var(--pico-form-element-background-color);
+	--color-segmented-control-button-bg: var(--pico-secondary-background);
+	--color-segmented-control-button-selected-border: var(
+		--pico-secondary-border
+	);
+	--color-fg-default: var(--pico-color);
+	--color-fg-muted: var(--pico-muted-color);
+	--color-fg-subtle: var(--pico-muted-color);
+	--color-canvas-default: var(--pico-form-element-background-color);
+	--color-canvas-overlay: var(--pico-form-element-selected-background-color);
+	--color-canvas-inset: var(--pico-form-element-active-background-color);
+	--color-canvas-subtle: var(--pico-form-element-selected-background-color);
+	--color-border-default: var(--pico-form-element-border-color);
+	--color-border-muted: var(--pico-form-element-border-color);
+	--color-neutral-muted: var(--pico-muted-border-color);
+	--color-accent-fg: var(--pico-primary);
+	--color-accent-emphasis: var(--pico-primary);
+	--color-accent-muted: var(--pico-primary-background);
+	--color-accent-subtle: color-mix(
+		in srgb,
+		var(--pico-primary-background) 25%,
+		transparent
+	);
+	--color-success-fg: var(--pico-ins-color);
+	--color-attention-fg: #d29922;
+	--color-attention-muted: rgb(187 128 9 / 40%);
+	--color-attention-subtle: rgb(187 128 9 / 15%);
+	--color-danger-fg: var(--pico-del-color);
+	--color-danger-muted: var(--pico-form-element-invalid-border-color);
+	--color-danger-subtle: var(--pico-form-element-invalid-border-color);
+	--color-primer-shadow-inset: 0 0 transparent;
+	/* --color-scale-gray-7: #21262d; */
+	/* --color-scale-blue-8: #0c2d6b; */
+
+	/*! Extensions from @primer/css/alerts/flash.scss */
+	--color-social-reaction-bg-hover: var(--pico-primary-underline);
+	--color-social-reaction-bg-reacted-hover: var(--pico-primary-background);
+}
+
+main .pagination-loader-container {
+	background-image: url("https://github.com/images/modules/pulls/progressive-disclosure-line-dark.svg");
+}
+
+main .gsc-loading-image {
+	background-image: url("https://github.githubassets.com/images/mona-loading-dark.gif");
+}
+
+/* Style overrides beyond simple variable changes */
+.gsc-comment > div {
+	border-color: var(--pico-card-border-color);
+	background: var(--pico-card-background-color);
+}
+
+.gsc-comment-header {
+	background: var(--pico-card-sectioning-background-color);
+	padding-bottom: 0.5rem;
+}
+
+.gsc-comment-footer {
+	background: var(--pico-card-sectioning-background-color);
+	margin-bottom: 0;
+	padding-block: 0.5rem;
+}
+
+.gsc-replies {
+	background: var(--pico-card-sectioning-background-color);
+	border-top: none;
+}
+
+.gsc-reply-box {
+	border-top: none;
+	background: var(--pico-card-sectioning-background-color);
+}
+
+.gsc-comment-box {
+	border-color: var(--pico-card-border-color);
+	background: var(--pico-card-background-color);
+}
+
+.gsc-comment-box-tabs {
+	background: var(--pico-card-sectioning-background-color);
+	button.color-bg-canvas {
+		background: var(--pico-card-background-color);
+	}
+}
+
+.form-control {
+	background-color: var(--pico-background-color);
+	border-color: var(--pico-form-element-border-color);
+
+	&:focus {
+		background-color: var(--pico-background-color);
+	}
+}
+
+.btn:not(.btn-primary) .octicon:not(.color-text-success) {
+	color: var(--pico-secondary-inverse);
+}
+
+.gsc-reply-content.markdown .highlight pre,
+.gsc-reply-content.markdown pre {
+	background: var(--pico-code-background-color);
+}
