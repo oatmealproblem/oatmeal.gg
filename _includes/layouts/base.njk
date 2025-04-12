@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ title or metadata.title }}</title>
 		<meta name="description" content="{{ description or metadata.description }}">
+		<link rel="icon" type="image/svg+xml" href="/icon.svg">
 
 		{# Atom and JSON feeds included by default #}
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
@@ -66,7 +67,10 @@
 			<nav>
 				<h2 hidden>Top level navigation menu</h2>
 				<ul>
-					<li><a href="/" class="contrast"><strong>Oatmeal Problem</strong></a></li>
+					<li><a href="/" class="contrast"><strong>
+						<img style="width: 1.5em; aspect-ratio: 1; position: relative; top: -0.125em;" eleventy:ignore src="/oatmeal.svg" alt="Randomly generated oatmeal" loading="eager"/>
+						Oatmeal Problem
+					</strong></a></li>
 					<li><a href="/posts">All Posts</a></li>
 					<li><a href="/rss.xml">RSS</a></li>
 				</ul>

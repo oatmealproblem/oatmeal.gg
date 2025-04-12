@@ -1,0 +1,56 @@
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	viewBox="-100 -80 200 200"
+	width="100"
+	height="100"
+>
+	<defs>
+		<clipPath id="bottom">
+			<rect x="-100" y="0" width="200" height="100"></rect>
+		</clipPath>
+		<clipPath id="inside">
+			<ellipse id="inside" cx="0" cy="0" rx="85" ry="45"></ellipse>
+		</clipPath>
+		<clipPath id="bits-clip">
+			<ellipse
+				cx="0"
+				cy="15"
+				rx="85"
+				ry="48"
+				clip-path="url(#inside)"
+			></ellipse>
+		</clipPath>
+	</defs>
+	<ellipse cx="0" cy="55" ry="40" rx="60" fill="#527ac6"></ellipse>
+	<circle cx="0" cy="0" r="90" fill="#83aeff" clip-path="url(#bottom)"></circle>
+	<ellipse cx="0" cy="0" rx="90" ry="50" fill="#527ac6"></ellipse>
+	<ellipse id="inside" cx="0" cy="0" rx="85" ry="45" fill="#83aeff"></ellipse>
+	<ellipse
+		cx="0"
+		cy="15"
+		rx="85"
+		ry="45"
+		fill="#f7ead4"
+		clip-path="url(#inside)"
+	></ellipse>
+	<g id="bits" cx="0" cy="15" rx="85" ry="45" clip-path="url(#bits-clip)"></g>
+</svg>
+
+<script>
+	function randomPlusMinus() {
+		return Math.random() * 2 - 1;
+	}
+
+	for (let _ of Array.from({ length: 400 })) {
+		const circle = document.createElementNS(
+			"http://www.w3.org/2000/svg",
+			"circle",
+		);
+		circle.setAttribute("r", 3 + randomPlusMinus() * 2);
+		circle.setAttribute("cx", 0 + randomPlusMinus() * 85);
+		circle.setAttribute("cy", 0 + randomPlusMinus() * 45);
+		circle.setAttribute("opacity", 0.5 + randomPlusMinus() * 0.25);
+		circle.setAttribute("fill", randomPlusMinus() > 0 ? "#f3f1ee" : "#d7b16b");
+		document.getElementById("bits").appendChild(circle);
+	}
+</script>

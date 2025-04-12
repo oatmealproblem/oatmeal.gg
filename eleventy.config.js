@@ -13,6 +13,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({
 		_redirects: "_redirects",
 		"giscus-theme.css": "giscus-theme.css",
+		"content/oatmeal.svg": "icon.svg",
 	});
 
 	eleventyConfig.setServerOptions({
