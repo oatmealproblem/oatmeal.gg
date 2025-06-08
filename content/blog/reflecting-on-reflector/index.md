@@ -4,6 +4,7 @@ date: "2019-03-16"
 description: A 7DRL Retrospective
 tags:
   - reflector
+  - 7drl
 ---
 
 ![Screenshot](./reflector-screenshot.png)

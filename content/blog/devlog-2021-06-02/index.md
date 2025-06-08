@@ -5,7 +5,7 @@ description: 7DRL and Sound Effects
 tags:
   - meta
   - reflector
-  - wyrms-wrath
+  - 7drl
 ---
 
 ### Where I've Been
