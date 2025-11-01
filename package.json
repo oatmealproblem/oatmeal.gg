@@ -16,12 +16,12 @@
 	},
 	"scripts": {
 		"build:tags": "node ./scripts/generateTagPages",
-		"build": "npm run clean && npm run build:tags && eleventy",
+		"build": "pnpm clean && pnpm build:tags && eleventy",
 		"clean": "rm -rf ./_site && rm -rf ./content/tags",
 		"format": "prettier --write \"**/*.{js,jsx,json,md,njk}\"",
 		"serve": "eleventy --serve",
-		"start": "concurrently \"npm:serve\" \"npm:watch:tags\"",
-		"watch:tags": "chokidar \"content/**/*.md\" -c \"npm run build:tags\""
+		"start": "pnpm run \"/^serve$|^watch:tags$/\"",
+		"watch:tags": "chokidar \"content/**/*.md\" -c \"pnpm build:tags\""
 	},
 	"type": "module",
 	"devDependencies": {
@@ -33,7 +33,6 @@
 		"@picocss/pico": "^2.1.1",
 		"@shikijs/colorized-brackets": "^3.14.0",
 		"chokidar-cli": "^3.0.0",
-		"concurrently": "^9.2.1",
 		"gray-matter": "^4.0.3",
 		"prettier": "^3.6.2",
 		"prettier-plugin-jinja-template": "^2.1.0",
