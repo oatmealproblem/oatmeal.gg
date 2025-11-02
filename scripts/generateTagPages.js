@@ -1,4 +1,5 @@
 import { hfs } from "@humanfs/node";
+import watcher from "@parcel/watcher";
 import matter from "gray-matter";
 
 const template = `---
@@ -22,7 +23,7 @@ pagination:
 {% include "posts-list.njk" %}
 `;
 
-async function main() {
+async function generateTagPages() {
 	const tags = new Set();
 	for await (const entry of hfs.walk("./content/blog")) {
 		if (entry.isFile && entry.name.endsWith(".md")) {
@@ -53,6 +54,16 @@ async function main() {
 			console.log(`Deleting ${path}`);
 			await hfs.delete(path);
 		}
+	}
+}
+
+async function main() {
+	if (process.argv.includes("--watch")) {
+		await watcher.subscribe("./content/blog", () => {
+			generateTagPages();
+		});
+	} else {
+		generateTagPages();
 	}
 }
 
