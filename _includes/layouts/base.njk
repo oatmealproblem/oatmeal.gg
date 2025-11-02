@@ -21,7 +21,7 @@
 		3. You can do the same for JS: {% js %}{% endjs %} and <script>{% getBundle "js" %}</script>
 		4. Learn more: https://github.com/11ty/eleventy-plugin-bundle
 		#}
-		{% css %}{% include "node_modules/@picocss/pico/css/pico.cyan.min.css" %}{% endcss %}
+		{% css %}{% include "../../custom-pico.css" %}{% endcss %}
 		{# Render the CSS bundle using Inlined CSS (for the fastest site performance in production) #}
 		<style>{% getBundle "css" %}</style>
 		{# Renders the CSS bundle using a separate file, if you can't set CSP directive style-src: 'unsafe-inline' #}

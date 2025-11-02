@@ -15,12 +15,13 @@
 		"url": "git+https://github.com/oatmealproblem/oatmeal.gg.git"
 	},
 	"scripts": {
+		"build:pico": "sass --no-source-map --style compressed --load-path=node_modules/@picocss/pico/scss/ ./custom-pico.scss custom-pico.css",
 		"build:tags": "node ./scripts/generateTagPages",
-		"build": "pnpm clean && pnpm build:tags && eleventy",
+		"build": "pnpm clean && pnpm build:pico && pnpm build:tags && eleventy",
 		"clean": "rm -rf ./_site && rm -rf ./content/tags",
 		"format": "prettier --write \"**/*.{js,jsx,json,md,njk}\"",
 		"serve": "eleventy --serve",
-		"start": "pnpm run \"/^serve$|^watch:tags$/\"",
+		"start": "pnpm build:pico && pnpm run \"/^serve$|^watch:pico$|^watch:tags$/\"",
 		"watch:tags": "pnpm build:tags --watch"
 	},
 	"type": "module",
@@ -42,5 +43,8 @@
 		"remark-parse": "^11.0.0",
 		"remark-rehype": "^11.1.2",
 		"unified": "^11.0.5"
+	},
+	"dependencies": {
+		"sass": "^1.93.3"
 	}
 }
