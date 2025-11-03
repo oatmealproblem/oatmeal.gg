@@ -57,6 +57,10 @@
 			figure.frame {
 				margin-block-end: 1rem !important;
 			}
+			/* fixes nav dropdown on firefox https://github.com/picocss/pico/issues/701 */
+			nav details.dropdown {
+				display: inline-block;
+			}
 		</style>
 	</head>
 	<body>
@@ -72,13 +76,30 @@
 						Oatmeal Problem
 					</strong></a></li>
 					<li><a href="/posts">All Posts</a></li>
-					<li><a href="/rss.xml">RSS</a></li>
 				</ul>
 				<ul>
-					<li><a target="_blank" href="https://github.com/oatmealproblem">GitHub</a></li>
-					<li><a target="_blank" href="https://discord.gg/invite/72kaXW782b">Discord</a></li>
-					<li><a target="_blank" href="https://steamcommunity.com/id/OatmealProblem/myworkshopfiles/">Workshop</a></li>
-					<li><a target="_blank" href="https://oatmealproblem.itch.io">itch.io</a></li>
+
+					<li>
+						<details class="dropdown">
+							<summary>Follow 👀</summary>
+							<ul>
+								<li><a target="_blank" href="https://discord.gg/invite/72kaXW782b">Discord Community</a></li>
+								<li><a target="_blank" href="https://steamcommunity.com/id/OatmealProblem/myworkshopfiles/">Steam Workshop</a></li>
+								<li><a target="_blank" href="https://oatmealproblem.itch.io">itch.io</a></li>
+								<li><a target="_blank" href="https://github.com/oatmealproblem">GitHub</a></li>
+							</ul>
+						</details>
+					</li>
+					<li>
+						<details class="dropdown">
+							<summary>Support ❤️</summary>
+							<ul dir="rtl">
+								<li><a href="https://github.com/sponsors/oatmealproblem">GitHub Sponsors</a></li>
+								<li><a href="https://patreon.com/oatmealproblem">Patreon</a></li>
+								<li><a href="https://buymeacoffee.com/oatmealproblem">Buy Me a Coffee</a></li>
+							</ul>
+						</details>
+					</li>
 				</ul>
 			</nav>
 		</header>
