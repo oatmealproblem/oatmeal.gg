@@ -1,7 +1,7 @@
 ---
 title: "Scoop of Oatmeal, August '25"
 date: "2025-08-09"
-description: "StellarMaps Progress and Paint a Galaxy"
+description: "StellarMaps progress and Paint a Galaxy"
 tags:
   - paint-a-galaxy
   - stellarmaps
