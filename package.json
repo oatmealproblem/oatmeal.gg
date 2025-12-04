@@ -33,9 +33,9 @@
 		"@humanfs/node": "^0.16.7",
 		"@parcel/watcher": "^2.5.1",
 		"@picocss/pico": "^2.1.1",
-		"@shikijs/colorized-brackets": "^3.14.0",
+		"@shikijs/colorized-brackets": "^3.19.0",
 		"gray-matter": "^4.0.3",
-		"prettier": "^3.6.2",
+		"prettier": "^3.7.4",
 		"prettier-plugin-jinja-template": "^2.1.0",
 		"rehype": "^13.0.2",
 		"rehype-expressive-code": "^0.41.3",
@@ -45,6 +45,6 @@
 		"unified": "^11.0.5"
 	},
 	"dependencies": {
-		"sass": "^1.93.3"
+		"sass": "^1.94.2"
 	}
 }
