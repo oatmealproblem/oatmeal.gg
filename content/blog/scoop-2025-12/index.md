@@ -1,7 +1,7 @@
 ---
 title: "Scoop of Oatmeal, December '25"
 date: "2025-12-04"
-description: "Paint a Galaxt progress and plans"
+description: "Paint a Galaxy progress and plans"
 tags:
   - paint-a-galaxy
   - scoop
