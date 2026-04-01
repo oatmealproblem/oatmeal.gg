@@ -11,9 +11,8 @@ import rehypeExpressiveCode from "rehype-expressive-code";
 export default function (eleventyConfig) {
 	// cloudflare redirects https://developers.cloudflare.com/pages/configuration/redirects/
 	eleventyConfig.addPassthroughCopy({
-		_redirects: "_redirects",
-		"giscus-theme.css": "giscus-theme.css",
 		"content/oatmeal.svg": "icon.svg",
+		public: ".",
 	});
 
 	eleventyConfig.setServerOptions({
