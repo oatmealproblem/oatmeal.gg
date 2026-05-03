@@ -9,7 +9,7 @@ tags:
 
 Progress has been sporadic the past few months, but finally getting back into the groove.
 
-## Paint a galaxy
+## Paint a Galaxy
 
 The big Paint a Galaxy redesign has been released! This was almost a complete re-write of the web app. The highlights:
 
